@@ -115,29 +115,29 @@ export function CartDrawer() {
         <div className="w-screen max-w-md bg-brand-forest-dark border-l border-brand-green/40 shadow-2xl flex flex-col justify-between text-brand-cream animate-in slide-in-from-right duration-300">
           
           {/* Header */}
-          <div className="p-4 sm:p-5 border-b border-brand-green/30 bg-brand-forest/70 backdrop-blur-md flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="p-2.5 rounded-2xl bg-gradient-to-tr from-brand-pink to-brand-pink-dark text-white shadow-md shadow-brand-pink/30 flex items-center justify-center">
+          <div className="p-4 sm:p-5 border-b border-brand-green/30 bg-brand-forest/70 backdrop-blur-md flex items-center justify-between gap-3">
+            <div className="flex items-center gap-3 min-w-0">
+              <div className="p-2.5 rounded-2xl bg-gradient-to-tr from-brand-pink to-brand-pink-dark text-white shadow-md shadow-brand-pink/30 flex items-center justify-center shrink-0">
                 <ShoppingBag className="w-5 h-5" />
               </div>
-              <div>
+              <div className="min-w-0">
                 <div className="flex items-center gap-2">
-                  <h3 id="cart-title" className="font-display font-extrabold text-lg text-white leading-tight">
-                    Your Food Basket
+                  <h3 id="cart-title" className="font-display font-extrabold text-base sm:text-lg text-white leading-tight truncate">
+                    Your Basket
                   </h3>
                   {totalCount > 0 && (
-                    <span className="px-2 py-0.5 rounded-full bg-brand-yellow text-brand-dark-text font-black text-[11px] leading-tight">
+                    <span className="shrink-0 whitespace-nowrap inline-flex items-center justify-center px-2.5 py-1 rounded-full bg-brand-yellow text-brand-dark-text font-display font-black text-[11px] leading-none shadow-sm select-none">
                       {totalCount} {totalCount === 1 ? "item" : "items"}
                     </span>
                   )}
                 </div>
-                <span className="text-xs text-emerald-200/80">
+                <span className="text-xs text-emerald-200/80 truncate block mt-0.5">
                   {items.length === 0 ? "Basket is currently empty" : "Delivering hot across Kasur"}
                 </span>
               </div>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5 shrink-0">
               {items.length > 0 && (
                 <button
                   type="button"
@@ -455,7 +455,7 @@ export function CartDrawer() {
                         onChange={(e) => setCustomerAddress(e.target.value)}
                         placeholder="Street Address, House No, Landmark in Kasur..."
                         rows={2}
-                        className="w-full pl-9 pr-3 py-2.5 rounded-xl bg-brand-forest-dark border border-brand-green/40 text-xs text-white placeholder-emerald-200/50 focus:border-amber-400 focus:outline-none"
+                        className="w-full pl-9 pr-3 py-2.5 rounded-xl bg-brand-forest-dark border border-brand-green/40 text-xs text-white placeholder-emerald-200/50 focus:border-amber-400 focus:outline-none resize-none"
                       />
                     </div>
                   )}
