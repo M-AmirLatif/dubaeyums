@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-forest-dark: #06190e;
+  --color-brand-forest: #0b2e17;
+  --color-brand-forest-card: #103b1e;
+  --color-brand-forest-light: #16532b;
+  --color-brand-green: #1a6e3b;
+  --color-brand-green-light: #22a054;
+  --color-brand-green-lime: #4ade80;
+  --color-brand-pink: #e11d74;
+  --color-brand-pink-glow: #ff3388;
+  --color-brand-pink-dark: #be123c;
+  --color-brand-yellow: #f59e0b;
+  --color-brand-yellow-bright: #fbbf24;
+  --color-brand-red: #dc2626;
+  --color-brand-cream: #fffdf7;
+  --color-brand-cream-card: #fffaf0;
+  --color-brand-cream-border: #fef08a;
+  --color-brand-dark-text: #141f17;
+
+  --font-display: var(--font-outfit), sans-serif;
+  --font-body: var(--font-jakarta), sans-serif;
+}
+
+:root {
+  --background: #06190e;
+  --foreground: #fffdf7;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #06190e;
+  color: #fffdf7;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(26, 110, 59, 0.22) 0%, transparent 45%),
+    radial-gradient(circle at 85% 30%, rgba(225, 29, 116, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 50% 80%, rgba(245, 158, 11, 0.1) 0%, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #06190e;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a6e3b;
+  border-radius: 9999px;
+  border: 2px solid #06190e;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22a054;
+}
+
+/* Selection Color */
+::selection {
+  background-color: #e11d74;
+  color: #ffffff;
+}
+
+/* Starburst Badge clip-path */
+.clip-starburst {
+  clip-path: polygon(
+    50% 0%, 63% 13%, 81% 6%, 86% 24%, 100% 29%, 95% 47%, 100% 64%, 87% 73%, 84% 91%, 67% 91%, 53% 100%, 38% 93%, 22% 95%, 16% 78%, 2% 73%, 6% 54%, 0% 36%, 14% 28%, 15% 10%, 33% 12%
+  );
+}
+
+/* Shimmer animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(225, 29, 116, 0.4), 0 0 30px rgba(26, 110, 59, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(225, 29, 116, 0.7), 0 0 45px rgba(245, 158, 11, 0.4);
+  }
+}
+
+.glow-brand {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+/* Horizontal scroll hide scrollbar on mobile pills */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* High-contrast focus state for accessibility */
+*:focus-visible {
+  outline: 2px solid #fbbf24;
+  outline-offset: 2px;
+}
+
+/* Reduced motion preference fallback */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
