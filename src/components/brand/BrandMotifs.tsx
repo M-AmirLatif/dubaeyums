@@ -220,6 +220,3 @@ export function DubaiYumsLogoBadge({
     </div>
   );
 }
-
-// Backward-compatible alias for any components importing SalatoLogoBadge
-export const SalatoLogoBadge = DubaiYumsLogoBadge;
