@@ -259,21 +259,23 @@ export function HeroSection() {
             </div>
 
             {/* Interactive Showcase Selector Tabs */}
-            <div className="flex items-center gap-1.5 sm:gap-2 mt-6 bg-brand-forest-dark/90 p-1.5 rounded-full border border-brand-green/40 shadow-lg">
-              {HERO_FEATURED_DISHES.map((dish, idx) => (
-                <button
-                  key={dish.id}
-                  onClick={() => setActiveDishIndex(idx)}
-                  className={`px-3 sm:px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
-                    activeDishIndex === idx
-                      ? "bg-brand-pink text-white shadow-md scale-105"
-                      : "text-emerald-200/70 hover:text-white hover:bg-brand-forest"
-                  }`}
-                  aria-label={`View ${dish.title}`}
-                >
-                  {dish.tabLabel}
-                </button>
-              ))}
+            <div className="w-full max-w-full overflow-x-auto no-scrollbar py-2 px-1 mt-4 flex items-center justify-start sm:justify-center">
+              <div className="inline-flex items-center gap-1.5 sm:gap-2 bg-brand-forest-dark/95 p-1.5 rounded-full border border-brand-green/40 shadow-lg shrink-0">
+                {HERO_FEATURED_DISHES.map((dish, idx) => (
+                  <button
+                    key={dish.id}
+                    onClick={() => setActiveDishIndex(idx)}
+                    className={`px-3 sm:px-3.5 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer whitespace-nowrap shrink-0 ${
+                      activeDishIndex === idx
+                        ? "bg-brand-pink text-white shadow-md scale-105"
+                        : "text-emerald-200/70 hover:text-white hover:bg-brand-forest"
+                    }`}
+                    aria-label={`View ${dish.title}`}
+                  >
+                    {dish.tabLabel}
+                  </button>
+                ))}
+              </div>
             </div>
 
           </div>

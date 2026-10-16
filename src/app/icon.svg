@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+    <radialGradient id="darkBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0b2e17" />
+      <stop offset="100%" stop-color="#06190e" />
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Ring Badge -->
+  <circle cx="50" cy="50" r="48" fill="url(#goldRing)" />
+  <circle cx="50" cy="50" r="44" fill="url(#darkBg)" stroke="#FBBF24" stroke-width="1.5" />
+  <circle cx="50" cy="50" r="40" fill="none" stroke="#F59E0B" stroke-width="1" stroke-dasharray="2 2" opacity="0.6" />
+
+  <!-- White Ghutra Drapes -->
+  <path
+    d="M15 35 C15 15, 30 8, 50 8 C70 8, 85 15, 85 35 C88 55, 85 75, 78 85 C74 75, 75 60, 72 45 C65 25, 35 25, 28 45 C25 60, 26 75, 22 85 C15 75, 12 55, 15 35 Z"
+    fill="#F8FAFC"
+    stroke="#CBD5E1"
+    stroke-width="2"
+  />
+
+  <!-- Black Agal Headband Cord -->
+  <path
+    d="M26 24 C34 18, 66 18, 74 24"
+    stroke="#0F172A"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M28 29 C36 24, 64 24, 72 29"
+    stroke="#1E293B"
+    stroke-width="3.5"
+    stroke-linecap="round"
+  />
+
+  <!-- Burger Top Bun -->
+  <path
+    d="M32 40 C32 30, 68 30, 68 40 Z"
+    fill="#F59E0B"
+    stroke="#D97706"
+    stroke-width="2"
+  />
+
+  <!-- Green Lettuce Wave -->
+  <path
+    d="M28 43 Q35 48 42 43 Q50 48 58 43 Q65 48 72 43"
+    stroke="#22C55E"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+
+  <!-- Cheese Slice -->
+  <polygon points="32,45 68,45 50,56" fill="#FBBF24" />
+
+  <!-- Meat Patty -->
+  <rect x="30" y="49" width="40" height="7" rx="3.5" fill="#78350F" />
+
+  <!-- Bottom Bun -->
+  <path
+    d="M32 58 C32 65, 68 65, 68 58 Z"
+    fill="#F59E0B"
+    stroke="#D97706"
+    stroke-width="1.5"
+  />
+</svg>

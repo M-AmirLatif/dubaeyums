@@ -211,10 +211,10 @@ export function DubaiYumsLogoBadge({
             </span>
           </span>
         </div>
-        <div className="flex items-center gap-1 mt-1 text-[10px] sm:text-xs font-bold text-amber-300/90 tracking-wide leading-none">
+        <div className="flex items-center gap-1 mt-1 text-[9.5px] sm:text-xs font-bold text-amber-300/90 tracking-wide leading-none min-w-0">
           <StarMotif className="w-2.5 h-2.5 text-brand-yellow shrink-0" />
-          <span className="truncate">New Taste In Town • Kasur</span>
-          <StarMotif className="w-2.5 h-2.5 text-brand-yellow shrink-0" />
+          <span className="truncate max-w-[135px] sm:max-w-none">New Taste In Town • Kasur</span>
+          <StarMotif className="w-2.5 h-2.5 text-brand-yellow shrink-0 hidden sm:inline-block" />
         </div>
       </div>
     </div>

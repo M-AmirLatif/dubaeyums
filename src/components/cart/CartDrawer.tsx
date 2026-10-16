@@ -111,8 +111,8 @@ export function CartDrawer() {
       />
 
       {/* Slide-over panel */}
-      <div className="fixed inset-y-0 right-0 max-w-full flex pl-6 sm:pl-10">
-        <div className="w-screen max-w-md bg-brand-forest-dark border-l border-brand-green/40 shadow-2xl flex flex-col justify-between text-brand-cream animate-in slide-in-from-right duration-300">
+      <div className="fixed inset-y-0 right-0 w-full max-w-md flex justify-end z-50 pointer-events-auto">
+        <div className="w-full h-full max-w-md bg-brand-forest-dark border-l border-brand-green/40 shadow-2xl flex flex-col justify-between text-brand-cream animate-in slide-in-from-right duration-300 overflow-x-hidden">
           
           {/* Header */}
           <div className="p-4 sm:p-5 border-b border-brand-green/30 bg-brand-forest/70 backdrop-blur-md flex items-center justify-between gap-3">
