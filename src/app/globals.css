@@ -29,9 +29,15 @@
 }
 
 html {
-  scroll-behavior: smooth;
   font-family: var(--font-jakarta), system-ui, -apple-system, sans-serif;
   color-scheme: dark;
+  scroll-behavior: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
@@ -39,11 +45,22 @@ body {
   color: #fffdf7;
   min-height: 100vh;
   overflow-x: hidden;
+  position: relative;
+}
+
+/* GPU hardware-accelerated background layer: avoids full-page repaint during scrolling */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
   background-image: 
     radial-gradient(circle at 15% 15%, rgba(26, 110, 59, 0.22) 0%, transparent 45%),
     radial-gradient(circle at 85% 30%, rgba(225, 29, 116, 0.12) 0%, transparent 40%),
     radial-gradient(circle at 50% 80%, rgba(245, 158, 11, 0.1) 0%, transparent 50%);
-  background-attachment: fixed;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 /* Custom Scrollbar */
@@ -114,3 +131,10 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* Rendering performance containment for large menu catalogs */
+.menu-card-contain {
+  content-visibility: auto;
+  contain-intrinsic-size: 320px 420px;
+}
+

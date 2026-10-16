@@ -114,7 +114,7 @@ export function BrandStrip() {
             <div className="lg:col-span-5 relative mt-6 lg:mt-0">
               <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden border-2 border-brand-yellow/30 shadow-2xl bg-brand-forest-dark">
                 <SafeImage
-                  src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=900&auto=format&fit=crop&q=80"
+                  src="https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?w=900&auto=format&fit=crop&q=80"
                   alt="Dubai Yums 1 Meter Pizza in Kasur"
                   category="pizza"
                   fallbackTitle="Dubai Yums 1 Meter Pizza"

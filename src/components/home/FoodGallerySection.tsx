@@ -10,7 +10,7 @@ const GALLERY_ITEMS = [
   {
     title: "1 Meter Party Pizza",
     category: "1st Time in Kasur",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=900&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?w=900&auto=format&fit=crop&q=80",
     badge: "1st in Kasur",
     tag: "Multi-Topping Party Pizza",
   },

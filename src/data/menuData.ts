@@ -53,7 +53,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "1 Meter Pizza (Regular)",
     category: "regular-pizza",
     description: "Kasur's 1st One-Meter Party Pizza! Sliced into delicious regular seasoned chicken, herbs & golden melted mozzarella.",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?w=900&auto=format&fit=crop&q=80",
     badge: "1st Time in Kasur",
     isPopular: true,
     sizes: [
@@ -94,7 +94,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Chicken Cheese",
     category: "regular-pizza",
     description: "Double mozzarella cheese layer generously spread over juicy spiced chicken pieces and signature tomato sauce.",
-    image: "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=800&auto=format&fit=crop&q=80",
     sizes: [
       { label: "S", name: "Small", price: 499 },
       { label: "M", name: "Medium", price: 899 },
@@ -183,7 +183,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "1 Meter Pizza (Special)",
     category: "special-pizza",
     description: "The grand Dubai Yums 1-meter signature! Gourmet multi-flavor toppings with premium meats, olives, sauces & extra molten cheese.",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=900&auto=format&fit=crop&q=80",
     badge: "1st Time in Kasur",
     isPopular: true,
     sizes: [
@@ -210,7 +210,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Malai Boti Pizza",
     category: "special-pizza",
     description: "Tender creamy malai chicken tikka infused with rich white cream sauce, green chili hints, and golden baked cheese.",
-    image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=80",
     isPopular: true,
     sizes: [
       { label: "S", name: "Small", price: 599 },
@@ -223,7 +223,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Kababish Pizza",
     category: "special-pizza",
     description: "Juicy sliced Pakistani seekh kababs, spiced chicken chunks, bell peppers, onions, and rich melting mozzarella.",
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&auto=format&fit=crop&q=80",
     isSpicy: true,
     sizes: [
       { label: "S", name: "Small", price: 650 },
@@ -236,7 +236,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Cheese Stuff Pizza",
     category: "special-pizza",
     description: "Stuffed crust oozing with molten cheese, topped with juicy seasoned chicken and aromatic oregano.",
-    image: "https://images.unsplash.com/photo-1548369937-47519962c11a?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=800&auto=format&fit=crop&q=80",
     badge: "Cheese Stuffed",
     sizes: [
       { label: "S", name: "Small", price: 650 },
@@ -249,7 +249,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Crown Crust Pizza",
     category: "special-pizza",
     description: "Royalty crown pocket crust stuffed with cheesy chicken bites surrounding a savory chicken supreme center.",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=800&auto=format&fit=crop&q=80",
     isPopular: true,
     badge: "Royalty Crown",
     sizes: [
@@ -287,7 +287,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Kabab Crust Pizza",
     category: "special-pizza",
     description: "Continuous juicy seekh kabab baked directly into the outer crust edge with loaded chicken toppings in center.",
-    image: "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&auto=format&fit=crop&q=80",
     badge: "Chef Choice",
     sizes: [
       { label: "S", name: "Small", price: 700 },
@@ -326,7 +326,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "B.B.Q Pizza (New)",
     category: "special-pizza",
     description: "Charcoal-kissed smoky BBQ chicken, caramelized onions, sweet smoky BBQ sauce drizzle, and cheese.",
-    image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&auto=format&fit=crop&q=80",
     badge: "New",
     sizes: [
       { label: "S", name: "Small", price: 599 },
@@ -339,7 +339,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Donut Pizza (New)",
     category: "special-pizza",
     description: "Novel ring-donut crust pizza stuffed with molten cheese and savory chicken filling, baked golden brown.",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=800&auto=format&fit=crop&q=80",
     badge: "New",
     sizes: [
       { label: "M", name: "Medium", price: 999 },
@@ -365,7 +365,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Zinger Burger",
     category: "burgers",
     description: "Kasur's favorite crispy golden chicken fillet, creamy mayo, fresh lettuce in a toasted bun.",
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?w=800&auto=format&fit=crop&q=80",
     price: 350,
     isPopular: true,
     badge: "Kasur Favorite",
@@ -401,7 +401,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Pizza Burger",
     category: "burgers",
     description: "Toasted burger bun baked with pizza marinara, chicken chunks, melted mozzarella, and olives.",
-    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&auto=format&fit=crop&q=80",
     price: 450,
   },
   {
@@ -417,7 +417,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Chappli Burger",
     category: "burgers",
     description: "Authentic spiced Peshawari-style chapli chicken patty grilled fresh with crisp onions and mint chutney.",
-    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=800&auto=format&fit=crop&q=80",
     price: 250,
   },
   {
@@ -425,7 +425,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Patty Burger",
     category: "burgers",
     description: "Classic tender savory chicken patty with fresh coleslaw, tomato, and tangy ketchup in a soft bun.",
-    image: "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=800&auto=format&fit=crop&q=80",
     price: 250,
   },
   {
@@ -492,7 +492,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Plain Fries",
     category: "fries",
     description: "Crispy golden French fries lightly seasoned with sea salt.",
-    image: "https://images.unsplash.com/photo-1576107232684-1279f3908594?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&auto=format&fit=crop&q=80",
     price: 250,
   },
   {
@@ -500,7 +500,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Garlic Mayo Fries",
     category: "fries",
     description: "Crispy potato fries drizzled with creamy garlic herb mayonnaise.",
-    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=800&auto=format&fit=crop&q=80",
     price: 300,
   },
   {
@@ -517,7 +517,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Cheese Fries",
     category: "fries",
     description: "Golden fries smothered with warm melted cheddar cheese sauce.",
-    image: "https://images.unsplash.com/photo-1585109649139-366815a0d713?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=800&auto=format&fit=crop&q=80",
     price: 500,
   },
   {
@@ -573,7 +573,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Malai Wings",
     category: "starters",
     description: "Juicy wings coated in rich creamy malai sauce and mild aromatic spices.",
-    image: "https://images.unsplash.com/photo-1527477321055-436158a2b0a5?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=800&auto=format&fit=crop&q=80",
     price: 550,
   },
   {
@@ -581,7 +581,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Grill Wings",
     category: "starters",
     description: "Flame-grilled wings brushed with smoky spice rub.",
-    image: "https://images.unsplash.com/photo-1524182576066-1be9613774db?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=800&auto=format&fit=crop&q=80",
     price: 500,
   },
   {
@@ -589,7 +589,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Honey Wings",
     category: "starters",
     description: "Crispy wings glazed with sweet and savory honey chili sauce.",
-    image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=800&auto=format&fit=crop&q=80",
     price: 550,
   },
   {
@@ -597,7 +597,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Peri Peri Wings",
     category: "starters",
     description: "Fiery flame-tossed wings infused with African peri peri spice.",
-    image: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=800&auto=format&fit=crop&q=80",
     price: 550,
     isSpicy: true,
   },
@@ -635,7 +635,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Platter Shawarma",
     category: "shawarma",
     description: "Open platter serving of shredded chicken shawarma, warm pita bread, garlic sauce, and fries.",
-    image: "https://images.unsplash.com/photo-1561651823-34feb02250e4?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
     price: 400,
   },
   {
@@ -643,7 +643,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Zinger Platter Shawarma",
     category: "shawarma",
     description: "Platter feast with sliced crispy zinger strips, pita bread, sauces, and fresh salad.",
-    image: "https://images.unsplash.com/photo-1561651823-34feb02250e4?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&auto=format&fit=crop&q=80",
     price: 499,
     isPopular: true,
   },
@@ -769,7 +769,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Red Sauce Pasta",
     category: "pasta",
     description: "Tangy Italian tomato marinara pasta with spiced chicken bits and herbs.",
-    image: "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop&q=80",
     sizes: [
       { label: "S", name: "Small", price: 350 },
       { label: "L", name: "Large", price: 599 },
@@ -809,7 +809,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Mineral Water",
     category: "drinks-extras",
     description: "Chilled pure bottled drinking water.",
-    image: "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1560023907-5f339617ea30?w=800&auto=format&fit=crop&q=80",
     sizes: [
       { label: "500ml", name: "500 ml", price: 60 },
       { label: "1.5L", name: "1.5 Liter", price: 110 },
@@ -832,7 +832,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Extra Cheese Topping",
     category: "drinks-extras",
     description: "Add extra layer of premium stretchy mozzarella cheese.",
-    image: "https://images.unsplash.com/photo-1548369937-47519962c11a?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=800&auto=format&fit=crop&q=80",
     sizes: [
       { label: "S", name: "Small Size", price: 70 },
       { label: "M", name: "Medium Size", price: 150 },
@@ -875,7 +875,7 @@ export const DEALS: DealItem[] = [
     price: 3000,
     originalPrice: 3500,
     isHero: true,
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=900&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?w=900&auto=format&fit=crop&q=80",
     items: [
       "1 Meter Pizza Reg. (Multiple Toppings)",
       "1 Liter Chilled Drink",
@@ -962,7 +962,7 @@ export const DEALS: DealItem[] = [
     serves: "4–5 Persons",
     price: 1999,
     originalPrice: 2400,
-    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1512152272829-e3139592d56f?w=800&auto=format&fit=crop&q=80",
     items: [
       "2 Zinger Burger",
       "2 Chicken Shawarma",

@@ -40,7 +40,7 @@ export function MenuCard({ item }: MenuCardProps) {
   };
 
   return (
-    <div className="group relative rounded-2xl bg-brand-cream-card text-brand-dark-text border border-amber-200/60 shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col justify-between overflow-hidden hover:-translate-y-1">
+    <div className="group relative rounded-2xl bg-brand-cream-card text-brand-dark-text border border-amber-200/60 shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col justify-between overflow-hidden hover:-translate-y-1 menu-card-contain">
       
       {/* Top Media Container */}
       <div className="relative w-full aspect-[16/10] overflow-hidden bg-brand-forest-dark/10">

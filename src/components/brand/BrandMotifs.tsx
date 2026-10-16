@@ -205,8 +205,10 @@ export function DubaiYumsLogoBadge({
           <span className="font-display font-black text-xl sm:text-2xl tracking-tight text-brand-yellow-bright group-hover:text-amber-300 transition-colors leading-none">
             DUBAI
           </span>
-          <span className="px-2 py-0.5 rounded-full bg-red-600 font-display font-black text-[10px] sm:text-[11px] tracking-wider text-white lowercase shadow-sm inline-flex items-center justify-center leading-none self-center shrink-0 border border-white/20">
-            yums
+          <span className="inline-flex items-center justify-center px-2 sm:px-2.5 h-4.5 sm:h-5 rounded-full bg-red-600 shadow-sm border border-white/25 shrink-0 self-center">
+            <span className="font-display font-black text-[10px] sm:text-[11px] text-white lowercase tracking-normal text-center leading-none inline-block -translate-y-[0.5px]">
+              yums
+            </span>
           </span>
         </div>
         <div className="flex items-center gap-1 mt-1 text-[10px] sm:text-xs font-bold text-amber-300/90 tracking-wide leading-none">

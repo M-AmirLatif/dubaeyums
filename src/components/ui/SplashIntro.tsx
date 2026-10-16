@@ -144,8 +144,10 @@ export function SplashIntro() {
           <h1 className="font-display font-black text-4xl sm:text-6xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-white to-brand-yellow drop-shadow-[0_4px_24px_rgba(245,158,11,0.4)] animate-[pulse_2s_ease-in-out_infinite]">
             DUBAI
           </h1>
-          <span className="px-2.5 py-1 rounded-full bg-red-600 font-display font-black text-xs sm:text-sm tracking-widest text-white lowercase shadow-lg shadow-red-600/50 border border-white/20 animate-bounce">
-            yums
+          <span className="inline-flex items-center justify-center px-3 py-1 rounded-full bg-red-600 shadow-lg shadow-red-600/50 border border-white/20 animate-bounce self-center">
+            <span className="font-display font-black text-xs sm:text-sm tracking-normal text-white lowercase leading-none inline-block -translate-y-[0.5px]">
+              yums
+            </span>
           </span>
         </div>
 
